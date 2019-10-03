@@ -1,0 +1,16 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[dim_organizacional] (Table)
+       [dbo].[FK_dim_organizacional_dim_organizacional] (Foreign Key)
+
+** Supporting actions

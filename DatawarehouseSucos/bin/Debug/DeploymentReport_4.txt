@@ -1,0 +1,38 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[dim_tempo] (Table)
+       [dbo].[fato_001] (Table)
+       [dbo].[fato_002] (Table)
+       [dbo].[fato_003] (Table)
+       [dbo].[fato_004] (Table)
+       [dbo].[fato_005] (Table)
+       [dbo].[FK_fato_001_dim_cliente] (Foreign Key)
+       [dbo].[FK_fato_001_dim_produto] (Foreign Key)
+       [dbo].[FK_fato_001_dim_organizacional] (Foreign Key)
+       [dbo].[FK_fato_001_dim_fabrica] (Foreign Key)
+       [dbo].[FK_fato_001_dim_dia] (Foreign Key)
+       [dbo].[FK_fato_002_dim_cliente] (Foreign Key)
+       [dbo].[FK_fato_002_dim_produto] (Foreign Key)
+       [dbo].[FK_fato_002_dim_fabrica] (Foreign Key)
+       [dbo].[FK_fato_002_dim_dia] (Foreign Key)
+       [dbo].[FK_fato_003_dim_fabrica] (Foreign Key)
+       [dbo].[FK_fato_003_dim_dia] (Foreign Key)
+       [dbo].[FK_fato_004_dim_cliente] (Foreign Key)
+       [dbo].[FK_fato_004_dim_produto] (Foreign Key)
+       [dbo].[FK_fato_004_dim_organizacional] (Foreign Key)
+       [dbo].[FK_fato_004_dim_dia] (Foreign Key)
+       [dbo].[FK_fato_005_dim_produto] (Foreign Key)
+       [dbo].[FK_fato_005_dim_fabrica] (Foreign Key)
+       [dbo].[FK_fato_005_dim_dia] (Foreign Key)
+
+** Supporting actions
